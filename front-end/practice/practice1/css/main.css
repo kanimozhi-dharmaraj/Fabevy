@@ -1,7 +1,13 @@
 body{
 	font-family:Verdana, 'sans-serif';
+	background-image:url('../images/_template.png');
+	background-repeat:no-repeat;
+	background-position:center;
 }
-
+.wrapper{
+	width:950px;
+	margin:auto;
+}
 header{
 	display:flex;
 }
@@ -12,7 +18,7 @@ header{
 .header-left .header-title{
 	background-color:#003D74;
 	color:#FFFFFF;
-	padding-top:60px;
+	padding-top:50px;
 	padding-left:20px;
 	padding-bottom:10px;
 }
@@ -46,5 +52,5 @@ header{
 	width:33%;
 }
 .main-content article{
-	width:66%;
+	width:67%;
 }
