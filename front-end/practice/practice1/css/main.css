@@ -2,7 +2,7 @@ body{
 	font-family:Verdana, 'sans-serif';
 	background-image:url('../images/_template.png');
 	background-repeat:no-repeat;
-	background-position:center;
+	background-position:center top;
 }
 .wrapper{
 	width:950px;
@@ -24,33 +24,60 @@ header{
 }
 .header-left .header-name{
 	padding-left:20px;
-	color:#1A4369;
+	
 }
 .header-left .header-name h1{
-	font-size:44px;
-	padding-top:20px;
+	font-size:33px;
+	padding-top:30px;
 	font-weight:bold;
-	padding-bottom:10px;
+	padding-bottom:20px;
+	padding-left:10px;
+	color:#003f75;
 }
 .header-left .header-name h3{
 	font-style:italic;
-	font-size:24px;
+	font-size:20px;
 	padding-bottom:30px;
+	padding-left:10px;
+	color:#003f75;
 }
 
 .header-right{
 	width:50%;
-	padding-top:100px;
-	font-size:18px;
+	padding-top:95px;
+	font-size:12px;
 	padding-right:20px;
 	line-height:24px;
+	padding-left:40px;
 }
 .main-content{
 	display:flex;
+	padding-left:20px;
+	padding-top:5px;
 }
 .main-content aside{
 	width:33%;
+	padding-right:30px;
+	box-sizing:border-box;
 }
 .main-content article{
 	width:67%;
+}
+
+.resume-section .section-title{
+	color:#003f75;
+	font-weight:bold;
+	font-size:18px;
+	padding-left:10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+.resume-section .section-sub-title{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.resume-section p{
+	font-size:14px;
+	margin-bottom:20px;
 }
