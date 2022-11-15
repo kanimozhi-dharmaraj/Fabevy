@@ -63,7 +63,9 @@ header{
 .main-content article{
 	width:67%;
 }
-
+.resume-section{
+	margin-bottom:18px;
+}
 .resume-section .section-title{
 	color:#003f75;
 	font-weight:bold;
@@ -79,5 +81,9 @@ header{
 }
 .resume-section p{
 	font-size:14px;
-	margin-bottom:20px;
+	margin-bottom:10px;
+}
+.resume-section ul li{
+	font-size:14px;
+	margin-bottom:16px;
 }
