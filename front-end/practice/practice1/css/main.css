@@ -87,3 +87,24 @@ header{
 	font-size:14px;
 	margin-bottom:16px;
 }
+.rating-wrapper{
+	display:flex;
+	justify-content:space-between;
+}
+.rating-wrapper .rating-info .rating-container{
+	display:flex;
+}
+.rating-wrapper .rating-info .rating-container .rating{
+	background:#003f75;
+	height:15px;
+	width:15px;
+	margin-right:5px;
+}
+.rating-wrapper .rating-info .rating-container .rating.no{
+	background:#ccc;
+}
+
+.rating-wrapper .rating-info .rating-description{
+	text-align:right;
+	padding-top:10px;
+}
