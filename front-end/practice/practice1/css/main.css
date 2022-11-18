@@ -1,8 +1,5 @@
 body{
 	font-family:Verdana, 'sans-serif';
-	/*background-image:url('../images/_template.png'); */
-	background-repeat:no-repeat;
-	background-position:center top;
 }
 .wrapper{
 	width:950px;
@@ -70,14 +67,14 @@ header{
 	color:#003f75;
 	font-weight:bold;
 	font-size:18px;
-	padding-bottom:5px;
+	padding-bottom:2px;
 	border-bottom:1px solid #ccc;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	
 }
 .resume-section .section-sub-title{
 	font-weight:bold;
-	margin-bottom:10px;
+	
 	
 }
 .resume-section .lead{
@@ -132,6 +129,11 @@ header{
 }
 .timeline-container .activity{
 	width:80%;
+}
+.footer-bg{
+	margin-left:50%;
+	background-color:#003D74;
+	height:100px;
 }
 .ms-20{
 	margin-left:20%;
