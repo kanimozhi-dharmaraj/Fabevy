@@ -1,6 +1,6 @@
 body{
 	font-family:Verdana, 'sans-serif';
-	background-image:url('../images/_template.png');
+	/*background-image:url('../images/_template.png'); */
 	background-repeat:no-repeat;
 	background-position:center top;
 }
@@ -31,21 +31,19 @@ header{
 	padding-top:30px;
 	font-weight:bold;
 	padding-bottom:20px;
-	padding-left:10px;
 	color:#003f75;
 }
 .header-left .header-name h3{
 	font-style:italic;
 	font-size:20px;
 	padding-bottom:30px;
-	padding-left:10px;
 	color:#003f75;
 }
 
 .header-right{
 	width:50%;
 	padding-top:95px;
-	font-size:12px;
+	font-size:14px;
 	padding-right:20px;
 	line-height:24px;
 	padding-left:40px;
@@ -65,17 +63,24 @@ header{
 }
 .resume-section{
 	margin-bottom:18px;
+	line-height:1.5;
+
 }
 .resume-section .section-title{
 	color:#003f75;
 	font-weight:bold;
 	font-size:18px;
-	padding-left:10px;
 	padding-bottom:5px;
 	border-bottom:1px solid #ccc;
 	margin-bottom:10px;
+	
 }
 .resume-section .section-sub-title{
+	font-weight:bold;
+	margin-bottom:10px;
+	
+}
+.resume-section .lead{
 	font-weight:bold;
 	margin-bottom:10px;
 }
@@ -83,9 +88,18 @@ header{
 	font-size:14px;
 	margin-bottom:10px;
 }
+.resume-section p.sublead{
+	margin-bottom:15px;
+}
 .resume-section ul li{
 	font-size:14px;
 	margin-bottom:16px;
+}
+.resume-section ul.list-style-1{
+	list-style:inside;
+}
+.resume-section ul.list-style-1 li{
+	margin-bottom:8px;
 }
 .rating-wrapper{
 	display:flex;
@@ -107,4 +121,15 @@ header{
 .rating-wrapper .rating-info .rating-description{
 	text-align:right;
 	padding-top:10px;
+	font-size:14px;
+}
+.timeline-container{
+	display:flex;
+	margin-bottom:20px;
+}
+.timeline-container .time{
+	width:20%;
+}
+.timeline-container .activity{
+	width:80%;
 }
