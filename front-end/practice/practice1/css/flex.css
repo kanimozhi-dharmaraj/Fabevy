@@ -1,0 +1,14 @@
+ .flex-container{
+	 display:flex;
+	 background-color:#facca5;
+	 justify-content:space-between;
+	 padding:20px;
+ }
+ .one,.two,.three,.four,.five{
+	 background-color:#8383e2;
+	 font-size:50px;
+	 width:250px;
+	 height:250px;
+	 color:#fff;
+	 text-align:center;
+ }
