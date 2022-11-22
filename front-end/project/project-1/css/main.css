@@ -2,5 +2,5 @@ body{
 	background-image:url('../images/template.png');
 	background-repeat:no-repeat;
 	background-position:top center;
-	background-attachment:scroll;
+	min-height:7522px;
 }
