@@ -1,6 +1,36 @@
+*{
+	box-sizing:border-box;
+}
 body{
 	background-image:url('../images/template.png');
 	background-repeat:no-repeat;
 	background-position:top center;
 	min-height:7522px;
+}
+.wrapper-fluid{
+	width:100%;
+	padding:0 15px;
+}
+.wrapper{
+    width: 1055px;
+    margin: 0 auto;
+}
+.f-container{
+	display:flex;
+	justify-content:space-between;
+}
+.f-item{
+	
+}
+.box-50{
+	width:50%;
+}
+header{
+	height:108px;
+}
+.banner{
+	height:801px;
+}
+.about{
+	height:55px;
 }
