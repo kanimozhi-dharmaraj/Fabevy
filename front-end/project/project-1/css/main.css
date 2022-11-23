@@ -15,6 +15,14 @@ body{
     width: 1055px;
     margin: 0 auto;
 }
+.wrapper-small{
+	width: 846px;
+    margin: 0 auto;
+	border:1px solid #92d9d2;
+	padding:20px;
+	border-radius:8px;
+	min-height:670px;
+}
 .f-container{
 	display:flex;
 	justify-content:space-between;
@@ -22,15 +30,64 @@ body{
 .f-item{
 	
 }
+.f-wrap-wrap{
+	flex-wrap:wrap;
+}
 .box-50{
 	width:50%;
+}
+.box-30{
+	width:30%;
+}
+.box-70{
+	width:70%;
+}
+.box-16{
+	width:16.66%;
+}
+.box-100{
+	width:100%;
+}
+.text-center{
+	text-align:center;
 }
 header{
 	height:108px;
 }
 .banner{
-	height:801px;
+	min-height:801px;
 }
 .about{
-	height:55px;
+	min-height:260px;
+}
+.ceo{
+	padding-top:60px;
+}
+.speciality{
+	text-align:center;
+	min-height:340px;
+	background:rgb(255 0 0 / 55%);
+}
+.card-score{
+	min-height:230px;
+}
+.card-text{
+	padding-top:47px;
+	min-height:160px;
+}
+.services{
+	padding-top:40px;
+}
+.section-title{
+	
+}
+.section-title h3{
+	margin-bottom:10px;
+}
+.section-title h2{
+	min-height:110px;
+}
+.card-product{
+	min-height:553px;
+	margin-bottom:20px;
 }
