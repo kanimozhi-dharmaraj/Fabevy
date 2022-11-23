@@ -28,7 +28,7 @@ body{
 	justify-content:space-between;
 }
 .f-item{
-	
+	padding:0 15px;
 }
 .f-wrap-wrap{
 	flex-wrap:wrap;
@@ -53,6 +53,10 @@ body{
 }
 header{
 	height:108px;
+	border-top:solid 8px #92d9d2;
+}
+header .logo img{
+	max-width:160px;
 }
 .banner{
 	min-height:801px;
@@ -90,4 +94,10 @@ header{
 .card-product{
 	min-height:553px;
 	margin-bottom:20px;
+}
+.nav-wrapper a{
+	display:inline-block;
+	line-height:100px;
+	text-decoration:none;
+	color:#033a99;
 }
