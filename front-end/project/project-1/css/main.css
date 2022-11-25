@@ -6,6 +6,7 @@ body{
 	background-repeat:no-repeat;
 	background-position:top center;
 	min-height:7522px;
+	cursor: zoom-out;
 }
 .wrapper-fluid{
 	width:100%;
