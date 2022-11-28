@@ -1,0 +1,99 @@
+ *{
+	  box-sizing:border-box;
+	  margin:auto;
+	  
+ }
+ h2{
+	 margin-bottom:50px;
+ }
+ .circle{
+      width: 300px;
+	  height: 300px;
+	  border-radius: 50%;
+	  background: #F67307;
+	  border:5px solid black;
+ }
+ .eye-circle{
+	  
+	  display:flex;
+ }
+ .left-eye{
+	  width: 80px;
+	  height: 80px;
+	  background:white;
+	  border:5px solid black;
+	  border-radius: 50%;
+	  transform: translate(380px,-250px);
+ }
+ .right-eye{
+	  width: 80px;
+	  height: 80px;
+	  background:white;
+	  border:5px solid black;
+	  border-radius: 50%;
+	  transform: translate(-380px,-250px);
+ }
+ .triangle {
+  width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F67307;
+  transform:scale(1.8,3.2) translatey(5px);
+ 
+}
+.ear{
+	display:flex;
+}
+.left-ear{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F67307;
+  transform:translate(276px,-525px) rotate(310deg) scale(0.5,1.7);
+}
+.right-ear{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F67307;
+  transform:translate(-276px,-525px) rotate(50deg) scale(0.5,1.7);
+}
+.nose{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F3B0F5;
+  transform:translatey(110px) scale(0.4) rotate(180deg);
+}
+.leg{
+	display:flex;
+}
+.left-leg{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F3B0F5;
+ transform: translate(396px,-98px) scale(0.5,1.5);
+}
+.right-leg{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F3B0F5;
+  transform: translate(-396px,-98px) scale(0.5,1.5);
+  
+}
+.tail{
+	width:  0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid #F67307;
+  transform: translate(135px,-202px) scale(0.4,1.7) rotate(-204deg);
+}
