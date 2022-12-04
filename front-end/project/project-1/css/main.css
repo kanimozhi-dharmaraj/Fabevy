@@ -7,6 +7,7 @@ body{
 	background-position:top center;
 	min-height:7522px;
 	cursor: zoom-out;
+	font-family: 'Open Sans', sans-serif;
 }
 .wrapper-fluid{
 	width:100%;
@@ -27,6 +28,7 @@ body{
 .f-container{
 	display:flex;
 	justify-content:space-between;
+	margin-right:-17px;
 }
 .f-item{
 	padding:0 15px;
@@ -96,9 +98,22 @@ header .logo img{
 	min-height:553px;
 	margin-bottom:20px;
 }
+.nav-wrapper a.current
+{
+	color:#033a99;
+}
 .nav-wrapper a{
 	display:inline-block;
 	line-height:100px;
 	text-decoration:none;
+	color:#05183a;
+	margin-left:
+}
+.nav-wrapper a:hover{
 	color:#033a99;
+}
+footer{
+	height:500px;
+	background:#033a99;
+	margin-top:2607px;
 }
