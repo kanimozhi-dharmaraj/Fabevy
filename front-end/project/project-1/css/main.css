@@ -14,6 +14,9 @@ body{
 .wrapper-fluid{
 	width:100%;
 	padding:0 15px;
+	position:fixed;
+	background:white;
+	border-top:solid 8px #92d9d2;
 }
 .wrapper{
     width: 1055px;
@@ -30,7 +33,8 @@ body{
 .f-container{
 	display:flex;
 	justify-content:space-between;
-	margin-right:-17px;
+	margin-right:-3px;
+	font-size:15px;
 }
 .f-item{
 	padding:0 15px;
@@ -69,12 +73,25 @@ body{
 .text-center{
 	text-align:center;
 }
+.headings h3{
+	color:#1665ab;
+	font-size:14px;
+	font-weight: 700;
+    margin-top: 35px;
+}
+.headings h2{
+	font-size: 38px;
+    font-weight: 700;
+    margin-top: 10px;
+	color:#1665ab;
+}
 .hidden-overflow{
 	overflow:hidden;
 }
 header{
 	height:108px;
-	border-top:solid 8px #92d9d2;
+	
+	
 }
 header .logo img{
 	max-width:160px;
@@ -95,11 +112,16 @@ header .logo img{
 }
 .speciality{
 	text-align:center;
-	min-height:340px;
-	background:rgb(255 0 0 / 55%);
+	min-height:276px;
+	width: 846px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.statistics{
+	margin-top:20px;
 }
 .card-score{
-	min-height:230px;
+	
 }
 .card-text{
 	padding-top:47px;
@@ -171,4 +193,49 @@ footer{
 }
 .ceo-description p{
 	font-size:21px;
+}
+.speciality h4{
+	font-size:25px;
+	color:#1665ab;
+	font-weight:bold;
+}
+.speciality p{
+	font-size:16px;
+	padding-top:14px;
+	line-height:1.4;
+}
+.statistics .card-score{
+	text-align:center;
+	height:130px;
+	width:130px;
+	border-radius:50%;
+	border:solid #1665ab 5px;
+	line-height:124px;
+	font-size:37px;
+	color:#1665ab;
+}
+.statistics .card-score.h4{
+	text-align:center;
+	font:14px;
+	font-weight:bold;
+}
+.service-images{
+	width:560px;
+    margin-top: 58px;
+	display:inline-block;
+	padding-right:70px;
+}
+.service-heading{
+	font-size:20px;
+	color:#1665ab;
+	font-weight:bold;
+}
+a.extra-link{
+	font-weight:bold;
+	
+	text-decoration:none;
+}
+.service-para{
+	line-height: 1.3;
+    font-size: 17px;
 }
