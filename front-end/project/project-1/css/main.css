@@ -48,7 +48,9 @@ body{
 .box-30{
 	width:30%;
 }
-
+.box-10{
+	width:10%;
+}
 .box-20{
 	width:20%;
 }
@@ -73,17 +75,22 @@ body{
 .text-center{
 	text-align:center;
 }
-.headings h3{
+.section-title{
+	margin-top:106px;
+}
+.section-title h3{
 	color:#1665ab;
 	font-size:14px;
 	font-weight: 700;
     margin-top: 35px;
+	margin-bottom:10px;
 }
-.headings h2{
+.section-title h2{
 	font-size: 38px;
     font-weight: 700;
     margin-top: 10px;
 	color:#1665ab;
+	min-height:110px;
 }
 .hidden-overflow{
 	overflow:hidden;
@@ -125,20 +132,14 @@ header .logo img{
 }
 .card-text{
 	padding-top:47px;
-	min-height:160px;
+	min-height:90px;
 }
 .services{
 	padding-top:40px;
 }
-.section-title{
-	
-}
-.section-title h3{
-	margin-bottom:10px;
-}
-.section-title h2{
-	min-height:110px;
-}
+
+
+
 .card-product{
 	min-height:553px;
 	margin-bottom:20px;
@@ -238,4 +239,12 @@ a.extra-link{
 .service-para{
 	line-height: 1.3;
     font-size: 17px;
+}
+.company-logo img{
+	width:92px;
+	display:inline-block;
+	margin-top:85px;
+}
+.global-image img{
+	
 }
