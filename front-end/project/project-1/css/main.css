@@ -7,7 +7,9 @@ body{
 	background-position:top center;
 	min-height:7522px;
 	cursor: zoom-out;
+	font-size:20px;
 	font-family: 'Open Sans', sans-serif;
+	line-height:1.2;
 }
 .wrapper-fluid{
 	width:100%;
@@ -42,8 +44,21 @@ body{
 .box-30{
 	width:30%;
 }
+
+.box-20{
+	width:20%;
+}
+.box-25{
+	width:25%;
+}
+.box-80{
+	width:80%;
+}
 .box-70{
 	width:70%;
+}
+.box-75{
+	width:75%;
 }
 .box-16{
 	width:16.66%;
@@ -54,6 +69,9 @@ body{
 .text-center{
 	text-align:center;
 }
+.hidden-overflow{
+	overflow:hidden;
+}
 header{
 	height:108px;
 	border-top:solid 8px #92d9d2;
@@ -63,9 +81,13 @@ header .logo img{
 }
 .banner{
 	min-height:801px;
+	background-image:url('../images/banner.jpg');
+	background-size:cover;
+	background-position:center bottom;
 }
 .about{
-	min-height:260px;
+	height:260px;
+	padding-top:74px;
 }
 .ceo{
 	padding-top:60px;
@@ -116,4 +138,14 @@ footer{
 	height:500px;
 	background:#033a99;
 	margin-top:2607px;
+}
+.about-section h3{
+	max-width:100%;
+	font-size:28px;
+	font-weight:600;
+	color:#1665ab;
+	margin-bottom: 15px;
+}
+.about-section p{
+	font-size:100%;
 }
