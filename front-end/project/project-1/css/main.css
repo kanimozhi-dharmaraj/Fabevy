@@ -25,7 +25,7 @@ body{
 	border:1px solid #92d9d2;
 	padding:20px;
 	border-radius:8px;
-	min-height:670px;
+	height:668px;
 }
 .f-container{
 	display:flex;
@@ -91,6 +91,7 @@ header .logo img{
 }
 .ceo{
 	padding-top:60px;
+	
 }
 .speciality{
 	text-align:center;
@@ -148,4 +149,26 @@ footer{
 }
 .about-section p{
 	font-size:100%;
+}
+.ceo-description{
+	line-height:1.2
+}
+.ceo-description h1{
+	font-size: 29px;
+    font-weight: 600;
+}
+.ceo-description h3{
+	max-width:100%;
+	font-size:24px;
+	font-weight:600;
+	color:#1665ab;
+	margin-bottom: 15px;
+}
+.ceo-description h4{
+	font-size: 22px;
+    color:#27ac95;
+	font-weight:700;
+}
+.ceo-description p{
+	font-size:21px;
 }
