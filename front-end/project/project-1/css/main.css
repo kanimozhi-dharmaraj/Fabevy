@@ -11,6 +11,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.2;
 }
+sup{
+	vertical-align:super;
+	font-size:0.8em;
+}
 .wrapper-fluid{
 	width:100%;
 	padding:0 15px;
@@ -164,8 +168,9 @@ header .logo img{
 }
 footer{
 	height:500px;
-	background:#033a99;
-	margin-top:2607px;
+	padding-top:142px;
+	/*background:#033a99;*/
+	
 }
 .about-section h3{
 	max-width:100%;
@@ -273,4 +278,116 @@ button{
 }
 button:hover{
 	border:3px solid #61ce70;
+}
+.footer-section{
+	
+}
+.footer-section .footer-image{
+	max-width: 100%;
+    width: 184px;
+}
+.footer-section .footer-links{
+	margin-top: 14px;
+    
+   
+}
+.footer-section .footer-links li{
+	    padding: 10px 0;
+		
+}
+.footer-section .footer-links li a,
+.footer-section .footer-links li span{
+	color:#fff;
+    text-decoration: none;
+	font-size:16px;
+}
+.footer-section h4{
+	color:#fff;
+	margin:9px 0 0;
+}
+.footer-section social-links{
+	margin-top:15px;
+}
+.footer-section social-links a{
+	color:#fff;
+	font-size:18px;
+	line-height:34px;
+	
+	display:inline-block;
+	
+	
+	
+}
+.footer-section .footer-headings{
+	font-size: 27px;
+    color: #fff;
+    font-weight: 600;
+}
+.footer-section .footer-address{
+	margin-top:20px;
+}
+.footer-section .footer-address h3{
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	border-bottom:solid 2px;
+	padding-bottom:13px;
+}
+.footer-section .footer-address h4{
+	font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+	letter-spacing:0;
+}
+.footer-section .footer-address p{
+	color:#fff;
+	line-height:22px;
+}
+.footer-copy-info{
+	text-align:center;
+	color:#7688db;
+	font-size:14px;
+	margin-top:60px;
+}
+.footer-section .email-form{
+	display:inline-block;
+	 margin-top: 39px;
+}
+.footer-section .email-form input{
+	background:#002e7e;
+	color:#fff;
+	height: 49px;
+    width: 211px;
+   
+	border:1px solid #002e7e;
+}
+.footer-section .email-form{
+	background-color:#fff;
+	height: 49px;
+	width:30px;
+	
+}
+.footer-section p.form-info{
+	text-align:right;
+	color:#7688db;
+	font-size:14px;
+	margin-top:10px;
+}
+.go-top{
+	position:fixed;
+	bottom:92px;
+	right:40px;
+	color:#fff;
+}
+.fa{
+	font-size: 16px;
+    margin-right: 12px;
+	color:#fff;
+}
+.fa-brands{
+	font-size: 16px;
+    margin-top: 10px;
+	color:#fff;
+	padding-right:13px;
 }
