@@ -363,7 +363,7 @@ button:hover{
 	margin-top:60px;
 }
 .footer-section .email-form{
-	display:flex;
+	 position:relative;
 	 margin-top: 39px;
 }
 .footer-section .email-form input{
@@ -371,9 +371,12 @@ button:hover{
 	color:#fff;
 	height: 49px;
     width: 211px;
-   font-size: 18px;
+    font-size: 18px;
     font-weight: 600;
 	border:1px solid #002e7e;
+}
+ ::placeholder { 
+  color: #fff;
 }
 .footer-section .email-form label i{
 	background-color:#fff;
@@ -382,14 +385,14 @@ button:hover{
     text-align: center;
     padding-top: 15px;
     font-size: 21px;
-	
+	position:absolute;
 }
 .footer-section p.form-info {
 	text-align:right;
 	color:#7688db;
 	font-size:14px;
 	margin-top:10px;
-	font-family:italic;
+	font-style:italic;
 }
 .go-top{
 	position:fixed;
