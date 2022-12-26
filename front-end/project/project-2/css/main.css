@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: right center;
+    height: 100vh;
+}
+.f-container{
+	display: flex;
+}
+.wrapper{
+	width: 100%;
+	padding: 0 15px;
+}
+
+header *{
+	color: #fff;
+}
+header .f-container{
+	height: 100vh;
+    align-items: center;
+}
+header .f-item{
+	width: 100%;
+}
+header h1{
+	font-size: 36px;
+	color: #fff;
+	font-family: 'Poppins', 'Arial', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+header h1 a{
+	text-decoration:none;
+}
+header p{
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-top:20px;
+	line-height:1.2;
+	font-family:"Raleway",'Arial', sans-serif;
+}
+header p span{
+	border-bottom: 2px solid #18d26e;
+	padding-bottom: 6px;
+}
+.main-navigation{
+    display: none;
+    margin-top: 0;
+    text-align: left;
+    position: fixed;
+    top: 50px;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+    border: solid 2px #343434;
+    background: rgb(0 0 0 / 76%);
+
+}
+.main-navigation a{
+	text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    line-height: 55px;
+    font-size: 18px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.main-navigation a.active{
+	position: relative;
+	color:#fff;
+}
+.main-navigation a.active:after{
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	background: #18d26e;
+	top: 40px;
+	left: 20px;
+}
+
+header .social-links{
+	margin-top: 30px;
+	text-align: center;
+}
+header .social-links a {
+	text-decoration: none;
+}
+header .social-links a span.circle{
+	width: 44px;
+    height: 44px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    line-height: 44px;
+}
+header .social-links .circle a{
+	font-size: 16px;
+    color: #fff;
+}
+header .social-links a span:hover{
+	background-color: #18d26e;
+}
+
+@media (min-width: 576px){
+	header p{
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px){
+	
+}
+
+@media (min-width: 992px){
+	.main-navigation{
+		display: block;
+		margin-top: 50px;
+		text-align: center;
+		position: static;
+		border: none;
+		background: none;
+	}
+	.main-navigation a{
+		text-decoration: none;
+		display: inline-block;
+		padding: 0 10px;
+	}
+	.main-navigation a.active:after{
+		left: 10px;
+	}
+}
+
+@media (min-width: 1200px){
+	header h1,
+	header p,
+	header .social-links,
+	.main-navigation{
+		text-align: left;
+	}
+	header .social-links a{
+		text-align: center;
+	}
+	header h1{
+		font-size: 48px;
+	}
+	header p{
+		font-size: 24px;
+	}
+}
