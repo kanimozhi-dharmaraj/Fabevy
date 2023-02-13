@@ -17,6 +17,36 @@
     this.address = studentObject.address;
     this.bloodGroup = studentObject.bloodGroup;
   }
+  
+  createRow(){
+	let rowElement = document.createElement('tr'),
+	    rollNoElement = document.createElement('td'),
+		studentNameElement = document.createElement('td'),
+		actionElement = document.createElement('td'),
+		buttonElement = document.createElement('button');
+		
+	rollNoElement.innerText = this.rollNo;
+	studentNameElement.innerText = this.studentName;
+	buttonElement.innerText = "update";
+	actionElement.append(buttonElement)
+	rowElement.append(rollNoElement);
+	rowElement.append(studentNameElement);
+	rowElement.append(actionElement);
+	tableElement.append(rowElement);
+	return rowElement;
+	}
+	getStudentDetails(){
+		return{
+			"studentName" : this.studentName,
+			"rollNo" : this.rollNo,
+			"department" : this.department,
+			"academicYear" : this.academicYear,
+			"mailId" : this.mailId,
+			"phoneNo" : this.phoneNo,
+			"address" : this.address,
+			"bloodGroup" : this.bloodGroup
+		}
+	}
 }
 
 let students = [];
@@ -24,16 +54,26 @@ let students = [];
  function studentRecords(e) {
 
   e.preventDefault();
-    
-  let formElement = this;
-  let formData = collectFormData(formElement);
+
+  let formElement = this,
+   formData = collectFormData(formElement),
   
-  students.push( new Student(formData) );
+   studentObject = new Student(formData);
+  
+  students.push(studentObject);
   document.getElementsByName("rollNo")[0].value = students.length+1;
   
-  console.log(students);
-
+  let studentRow = studentObject.createRow();
+  
+  let updateButton = studentRow.getElementsByTagName('button')[0];
+  console.log(updateButton.innerText);
+  updateButton.addEventListener('click',function(){
+  let studentDetails = studentObject.getStudentDetails();
+	  console.log(studentDetails);
+  });
+  
 }
+
 
 function collectFormData(formElement){
 	var newFormElement = new FormData(formElement);
@@ -44,11 +84,6 @@ function collectFormData(formElement){
 	return formDataObj;
 }
 
-
-
-
-
-var signupElement = document.getElementById("signup");
-
-
+var signupElement = document.getElementById("signup"),
+	tableElement = document.getElementById("table");
 signupElement.addEventListener("submit", studentRecords);

@@ -1,69 +1,88 @@
-<style>
-	form{
-	margin:10px;
-	}
-	div{
-	padding:10px;}
-</style>
-<form id="signup">
-  <div>
-	 <label>Roll Number</label>
-     <input type="number" name="rollNo" value="1">
-  </div>
-  <div>
-	  <label>Student Name</label>
-      <input type="text" name="studentName"> 
-  </div>
-  <div>
-      <label>Department</label>
-	  <select name="department">
-		<option>ECE</option>
-		<option>EEE</option>
-		<option>CSE</option>
-		<option>MECH</option>
-		<option>IT</option>
-		<option>CVIL</option>
-	  </select>
-  </div>
-  <div>
-      <label>Acadamic Year</label>
-      <select name="academicYear">
-		<option>2010</option>
-		<option>2011</option>
-		<option>2012</option>
-		<option>2013</option>
-		<option>2014</option>
-		<option>2015</option>
-		<option>2016</option>
-		<option>2017</option>
-		<option>2018</option>
-		<option>2019</option>
-		<option>2020</option>
-		<option>2021</option>
-		<option>2022</option>
-		<option>2023</option>
-	  </select>
-  </div>
-  <div>
-      <label>Mail Id</label>
-      <input type="email" name="mailId">
-  </div>
-   <div>
-      <label>Phone number</label>
-      <input type="number" name="phoneNo">
-  </div>
-   <div>
-      <label>Address</label>
-      <input type="text" name="address">
-  </div>
-   <div>
-      <label>Blood Group</label>
-      <input type="text" name="bloodGroup">
-  </div>
-  <div>
-    <button>submit</button>
-  </div>
-</form>
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			form{
+			margin:10px;
+			}
+			div{
+			padding:10px;}
+			#table{
+			width:80%;
+			}
+			#table tr th{
+			border:1px solid;
+			}
+		</style>
+	</head>
 
-
-<script src="main.js"></script>
+	<body>
+		<form id="signup">
+		  <div>
+			 <label>Roll Number</label>
+			 <input type="number" name="rollNo" value="1" readonly>
+		  </div>
+		  <div>
+			  <label>Student Name</label>
+			  <input type="text" name="studentName"> 
+		  </div>
+		  <div>
+			  <label>Department</label>
+			  <select name="department">
+				<option>ECE</option>
+				<option>EEE</option>
+				<option>CSE</option>
+				<option>MECH</option>
+				<option>IT</option>
+				<option>CVIL</option>
+			  </select>
+		  </div>
+		  <div>
+			  <label>Acadamic Year</label>
+			  <select name="academicYear">
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+				<option>2021</option>
+				<option>2022</option>
+				<option>2023</option>
+			  </select>
+		  </div>
+		  <div>
+			  <label>Mail Id</label>
+			  <input type="email" name="mailId">
+		  </div>
+		   <div>
+			  <label>Phone number</label>
+			  <input type="number" name="phoneNo">
+		  </div>
+		   <div>
+			  <label>Address</label>
+			  <input type="text" name="address">
+		  </div>
+		   <div>
+			  <label>Blood Group</label>
+			  <input type="text" name="bloodGroup">
+		  </div>
+		  <div>
+			<button type="submit">submit</button>
+		  </div>
+		</form>
+		<table id="table">
+			<tr>
+				<th>Roll No</th>
+				<th>Name</th>
+				<th>Action</th>
+			</tr>
+		</table>
+		<script src="main.js"></script>
+	</body>
+</html>
